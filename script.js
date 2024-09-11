@@ -5,7 +5,7 @@ const speed2 = prompt('Determine a velocidade de ${vehicle2}')
 
 if (speed1 > speed2) {
     alert(`$vehicle1} esta a {$speed1}km/h, e mais rapido que o ${vehicle2}, que esta a ${speed2}km/h`)
-} else if (speede1 < speed2) {
+} else if (speed1 < speed2) {
     alert(`${vehicle2} esta a ${speed2}km/h, e mais rapido que o ${vehicle1}, que esta a $speed1}km/h`)
 } else {
     alert(`Tanto ${vehicle1} e ${vehicle2} estão a ${speed1 || speed2} km?h`)  
